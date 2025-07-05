@@ -134,6 +134,21 @@ If you prefer to build Nanobrowser yourself, follow these steps:
    pnpm dev
    ```
 
+## 🧪 Run with Playwright
+
+Use Playwright to drive a browser session with Nanobrowser loaded:
+
+1. Install the helpers:
+   ```bash
+   npm install patchright playwright
+   ```
+2. Run the helper script:
+   ```bash
+   node run-nanobrowser.js
+   ```
+
+This launches Playwright's patched Chromium with the built extension loaded so you can automate pages programmatically.
+
 ## 🤖 Choosing Your Models
 
 Nanobrowser allows you to configure different LLM models for each agent to balance performance and cost. Here are recommended configurations:
